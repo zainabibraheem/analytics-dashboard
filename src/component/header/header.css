@@ -1,0 +1,135 @@
+.header {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAFA;
+  padding: 18px 20px;
+  border-bottom: 1px solid #e9e6f2;
+
+}
+
+.header-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+
+/* dashboard and search */
+
+.dashboard-search {
+  display: flex;
+  width: 1050px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* search input field */
+
+.search-div {
+  border: 1px solid #DADDDD;
+  height: 48px;
+  padding-left: 16px;
+  display: flex;
+  gap: 8px;
+  border-radius: 24px;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 349px;
+}
+
+.search-input {
+  color: #A3A3A3;
+  border: none;
+  outline: none;
+}
+
+
+/* calender*/
+
+.calender-div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.calender {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 12px 16px;
+  height: 40px;
+  justify-content: center;
+  border-radius: 20px;
+
+}
+
+.bell-div {
+  display: flex;
+  border: 1px solid #DADDDD;
+  border-radius: 27px;
+  padding: 11px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*profile */
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+/* client profile */
+
+.client-div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 8px;
+  border-radius: 28px;
+  border: 1px solid #DADDDD;
+
+}
+
+.client-profile {
+ display: flex;
+ gap: 8px;
+ align-items: center;
+
+}
+
+.client-info {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  
+}
+
+.client-name {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #26282C;
+  line-height: normal;
+  margin: 0;
+  text-align: right;
+}
+
+.client-email {
+  font-family: Inter;
+  font-size: 14px;
+  color: #787486;
+  line-height: normal;
+  font-weight: 400;
+  margin: 0;
+  text-align: right;
+}

@@ -1,0 +1,48 @@
+/* main styling */
+
+.main {
+  background-color: #FAFAFA;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: grid;
+  gap: 20px;
+  height: 998px;
+  padding: 20px;  
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "Charts Charts Charts Charts Charts Trends Trends Trends"
+    "Charts Charts Charts Charts Charts Trends Trends Trends"
+    "Charts Charts Charts Charts Charts Trends Trends Trends"
+    "Tables Tables Tables Tables Tables Platforms Platforms Platforms"
+    "Tables Tables Tables Tables Tables Platforms Platforms Platforms"
+    "Tables Tables Tables Tables Tables Platforms Platforms Platforms"
+    "Tables Tables Tables Tables Tables Platforms Platforms Platforms";
+  
+  }
+
+
+
+
+.charts {
+  
+  border: 1px solid red;
+  grid-area: Charts;
+
+}
+
+.tables {
+  border: 1px solid green;
+  grid-area: Tables;
+  
+}
+
+.trends {
+  border: 1px solid yellow;
+  grid-area: Trends;
+}
+
+.platforms {
+  border: 1px solid purple;
+  grid-area: Platforms;
+}

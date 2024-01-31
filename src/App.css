@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+
+
+/* dashboard trends */
+.trends {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 16px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.trend {
+  padding: 16px;  
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  border-radius: 1px solix #EDF2F7;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.trend p {
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.trend-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  gap: 4px;
 }
+
+.trendingup-div {
+  background-color: rgba(52,202,165, 0.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 1000px;
+  padding: 1px 8px;
+  gap: 4px;
+  font-size: 0.75rem;
+  
+}
+
+.trendingdown-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(237, 84, 78, 0.1);
+  border-radius: 1000px;
+  padding: 1px 8px;
+  gap: 4px;
+  font-size: 0.75rem;
+}
+
+.trendingup-div p{
+  color: #34CAA5;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.trendingdown-div p {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color:#ED544E;
+}
+
