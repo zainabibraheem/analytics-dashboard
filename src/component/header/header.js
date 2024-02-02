@@ -9,6 +9,13 @@ import bell from '../../assets/bell-outline.png'
 
 
 const Header = () => {
+
+    const currentDate = new Date().toLocaleDateString('en-US' , {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+   }) 
+
   return (
     <div>
        <header className='header'>
@@ -25,7 +32,7 @@ const Header = () => {
             <div className='calender-div'>
               <div className='calender'>
                 <img src={calender} alt='caleder icon' />
-                <p>November 15, 2023</p>
+                <p>{currentDate}</p>
               </div>
               <div className='bell-div'><img src={bell} alt='notification bell' /></div>
             </div>

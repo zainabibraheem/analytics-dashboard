@@ -7,19 +7,23 @@
   display: grid;
   gap: 20px;
   height: 998px;
-  padding: 20px;  
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 45% 55%;
+  
+ /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 
-    "Charts Charts Charts Charts Charts Trends Trends Trends"
-    "Charts Charts Charts Charts Charts Trends Trends Trends"
-    "Charts Charts Charts Charts Charts Trends Trends Trends"
-    "Tables Tables Tables Tables Tables Platforms Platforms Platforms"
-    "Tables Tables Tables Tables Tables Platforms Platforms Platforms"
-    "Tables Tables Tables Tables Tables Platforms Platforms Platforms"
-    "Tables Tables Tables Tables Tables Platforms Platforms Platforms";
-  
-  }
+    "Charts Charts Charts Charts Charts Charts Trends Trends Trends"
+    "Charts Charts Charts Charts Charts Charts Trends Trends Trends"
+    "Charts Charts Charts Charts Charts Charts Trends Trends Trends"
+    "Tables Tables Tables Tables Tables Tables Platforms Platforms Platforms"
+    "Tables Tables Tables Tables Tables Tables Platforms Platforms Platforms"
+    "Tables Tables Tables Tables Tables Tables Platforms Platforms"
+    "Tables Tables Tables Tables Tables Tables Platforms Platforms Platforms";
+  */
+  } 
 
 
 
@@ -27,22 +31,27 @@
 .charts {
   
   border: 1px solid red;
-  grid-area: Charts;
+ /* grid-area: Charts; */
+ grid-column: 1/2;
+ grid-row: 1/1;
+
 
 }
 
-.tables {
-  border: 1px solid green;
-  grid-area: Tables;
-  
+.orders {
+  /* grid-area: Tables; */
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 
 .trends {
-  border: 1px solid yellow;
-  grid-area: Trends;
+ /* grid-area: Trends; */
+ grid-column: 2/3;
+ grid-row: 1/1;
 }
 
 .platforms {
-  border: 1px solid purple;
-  grid-area: Platforms;
+  /* grid-area: Platforms; */
+grid-column: 2/3;
+grid-row: 2/3;
 }

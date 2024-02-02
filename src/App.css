@@ -3,18 +3,17 @@
 /* dashboard trends */
 .trends {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 10px;
   gap: 16px;
 
 }
 
 .trend {
-  padding: 16px;  
+  padding: 0px 25px;  
   background-color: #FFFFFF;
   border-radius: 14px;
-  border-radius: 1px solix #EDF2F7;
+  border: 1px solid #EDF2F7;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -71,3 +70,142 @@
   color:#ED544E;
 }
 
+/* platform item */
+
+.platforms{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 2rem 1.25rem;
+  background-color: #FFFFFF;
+  border-radius: .5rem;
+  gap: 1.125rem;
+  border: 1px solid #EDF2F7;
+}
+
+.platform-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.platform-header h2 {
+  color: #26282C;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.platform-header p {
+  color: #34CAA5;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.platform-title {
+  color: #22242C;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.progress {
+  width: 28.25rem;
+  background-color: #F5F5F5;
+  height: 0.75rem;
+  border-radius: 2.5rem;
+}
+
+.platform-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.platform-price p{
+  color: 525252;
+  font-size: 1.125;
+  font-weight: 500;
+}
+
+/* orders  */
+
+.orders {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1.125rem 1.25rem;
+  border-radius: 14px;
+  border: 1px solid #edf2f7;
+}
+
+.orders-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.orders-header h2 {
+  font-size: 1.125rem;
+
+  font-weight: 600;
+  color: #3A3F51;
+}
+
+.orders-header p {
+  font-size: 1.125rem;
+  color: #34CAA5;
+  font-weight: 500;
+}
+
+.orders thead th {
+  padding: 0.875rem 0 1.25rem 0;
+  color: #9ca4ab;
+  font-weight: 2500;
+  text-align: left;
+  
+}
+
+.order tbody tr td {
+
+  padding: 1rem 0 1rem 0;
+}
+
+.order th, .order td {
+  border-bottom: 1px solid #edf2f6;
+}
+
+.td-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.td-name span {
+ font-size: 1.375rem;
+ font-weight: 500;
+ color: #3a3f51;
+ font: Plus Jakarta Sans;
+
+}
+
+.td-date {
+  color: #737373;
+  font-size: 1.2rem;
+}
+
+.td-price {
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.275rem;
+}
+
+.td-invoice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.td-invoice span {
+font-size: 1.2rem;
+color: #0d062d;
+}

@@ -1,7 +1,13 @@
 import totalOrder from '../assets/box-tick.png';
 import totalRefund from '../assets/3d-rotate.png';
 import averageSales from '../assets/shopping-cart.png';
-import totalIncome from '../assets/coin.png'
+import totalIncome from '../assets/coin.png';
+
+import pic1 from '../assets/pic1.jpg';
+import pic2 from '../assets/pic2.jpg';
+import pic3 from '../assets/pic3.jpg';
+import pic4 from '../assets/pic4.jpg';
+import pic5 from '../assets/pic5.jpg';
 
 export const trendsData = [
   {
@@ -40,7 +46,7 @@ export const platformData = [
     id: 1,
     title: 'Book Bazaar',
     price: '2,500,000',
-    percentage: '50',
+    percentage: '50%',
     color: '#6160DC',
     value: '15',
 
@@ -49,8 +55,8 @@ export const platformData = [
   {
     id: 2,
     title: 'Artisan Aisle',
-    value: '1,800,000',
-    percentage: '40',
+    price: '1,800,000',
+    percentage: '40%',
     color: '#54C5EB',
     value: '10',
   },
@@ -58,19 +64,68 @@ export const platformData = [
   {
     id: 3,
     title: 'Toy Troop',
-    value: '1,200,000',
-    percentage: '20',
+    price: '1,200,000',
+    percentage: '20%',
     color: '#FFB74A',
     value: '8',
   },
 
   {
     id: 1,
-    title: 'Book Bazaar',
-    value: '1,500,000',
-    percentage: '18',
-    color: '##FF4A55',
+    title: 'XStore',
+    price: '1,500,000',
+    percentage: '18%',
+    color: '#FF4A55',
     value: '6',
   }
 ]
    
+ export const ordersData = [
+  {
+    id: 1,
+    image: <img src= {pic1}/>,
+    name: 'Marcus Bergson',
+    price: '80,000',
+    status: 'paid',
+  },
+
+  {
+    id: 2,
+    image: <img src= {pic2}/>,
+    name: 'Jaydon Vaccaro',
+    price: '150,000',
+    status: 'refund',
+    
+  },
+
+  {
+    id: 3,
+    image: <img src= {pic3}/>,
+    name: 'Corey Schleifer',
+    price: '87,000',
+    status: 'paid',
+  },
+
+
+  
+  {
+    id: 4,
+    image: <img src= {pic4}/>,
+    name: 'Cooper Press',
+    price: '100,000',
+    status: 'refund',
+  },
+
+  
+  {
+    id: 5,
+    image: <img src= {pic5}/>,
+    name: 'Phillip Ludin',
+    price: '78,000',
+    status: 'paid',
+  },
+
+  
+
+ ]
+

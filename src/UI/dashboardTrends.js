@@ -21,9 +21,9 @@ const Trends = () => {
           <img src={greenGraph}  alt='graph'/>
         </div>
         
-        <p>Total Order</p>
+        <p className='tend-title'>Total Order</p>
 
-        <p>350</p>
+        <p className='trend-value'>350</p>
 
         <div className='trend-div'>
           <div className='trendingup-div'>
