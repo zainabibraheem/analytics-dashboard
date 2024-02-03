@@ -13,21 +13,21 @@ export const trendsData = [
   {
     id: 1,
     title: 'Total Order',
-    value : '350',
+    value : 350,
     icon: <img src={totalOrder} alt='box tick'/>
   },
 
   {
     id: 2,
     title: 'Total refund',
-    value : '270',
+    value : 270,
     icon: <img src={totalRefund} alt='3d rotate'/>
   },
 
   {
     id: 3,
     title: 'Average Sales',
-    value : '1567',
+    value : 1567,
     icon: <img src={averageSales} alt='shopping cart'/>
   },
 
@@ -48,7 +48,7 @@ export const platformData = [
     price: '2,500,000',
     percentage: '50%',
     color: '#6160DC',
-    value: '15',
+    value: 15,
 
   },
 
@@ -58,7 +58,7 @@ export const platformData = [
     price: '1,800,000',
     percentage: '40%',
     color: '#54C5EB',
-    value: '10',
+    value: 10,
   },
 
   {
@@ -67,7 +67,7 @@ export const platformData = [
     price: '1,200,000',
     percentage: '20%',
     color: '#FFB74A',
-    value: '8',
+    value: 8,
   },
 
   {
@@ -76,7 +76,7 @@ export const platformData = [
     price: '1,500,000',
     percentage: '18%',
     color: '#FF4A55',
-    value: '6',
+    value: 6,
   }
 ]
    
@@ -125,7 +125,79 @@ export const platformData = [
     status: 'paid',
   },
 
-  
+]
 
- ]
+export const chartData = [
+  
+  { id: 1,
+    label: 'jan',
+    value: 6500,
+  },
+
+  {
+    id: 2,
+    label: 'feb',
+    value: 21000,
+  },
+
+  {
+    id: 3,
+    label: 'mar',
+    value: 2700,
+  },
+
+  {
+    id: 4,
+    label: 'apr',
+    value: 28000,
+  },
+
+  {
+    id: 5,
+    label: 'may',
+    value: 9000,
+  },
+
+  {
+    id: 6,
+    label: 'jun',
+    value: 45000,
+  },
+
+  {
+    id: 7,
+    label: 'jul',
+    value: 9000,
+  },
+
+  {
+    id: 8,
+    label: 'aug',
+    value: 23000,
+  },
+
+  { 
+    id: 9,
+    label: 'sep',
+    value: 32000,
+  },
+
+  {
+    id: 10,
+    label: 'oct',
+    value: 4000,
+  },
+
+  {
+    id: 11,
+    label: 'nov',
+    value: 30000,
+  },
+
+  {
+    id: 12,
+    label: 'dec',
+    value: 26000,
+  }
+] 
 

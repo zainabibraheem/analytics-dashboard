@@ -17,7 +17,7 @@ const Trends = () => {
     <div className='trends'>
       <div className='trend'>
         <div className='trend-div'>
-          <img src={totalOrder} alt=''box tick/>
+          <img src={totalOrder} alt='box tick'/>
           <img src={greenGraph}  alt='graph'/>
         </div>
         
@@ -37,7 +37,7 @@ const Trends = () => {
 
       <div className='trend'>
         <div className='trend-div'>
-          <img src={totalRefund} alt=''box tick/>
+          <img src={totalRefund} alt='3d rotate'/>
           <img src={redGraph}  alt='graph'/>
         </div>
         
@@ -57,7 +57,7 @@ const Trends = () => {
 
       <div className='trend'>
         <div className='trend-div'>
-          <img src={averageSales} alt=''box tick/>
+          <img src={averageSales} alt='shopping cart'/>
           <img src={redGraph}  alt='graph'/>
         </div>
         
@@ -77,7 +77,7 @@ const Trends = () => {
 
       <div className='trend'>
         <div className='trend-div'>
-          <img src={totalIncome} alt=''box tick/>
+          <img src={totalIncome} alt='coin'/>
           <img src={greenGraph}  alt='graph'/>
         </div>
         
