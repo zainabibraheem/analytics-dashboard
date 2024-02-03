@@ -8,8 +8,15 @@ const Charts = () => {
 
   const options = {
     maintainAspectRatio: true,
-    aspectRatio: 2,
+    aspectRatio: 3,
     responsive: true,
+    plugins: {
+      tooltip: {
+        callbacks: {
+
+        }
+      }
+    },
     scales: {
       x: {
         grid: {
@@ -28,19 +35,27 @@ const Charts = () => {
 
   return (
     <div className='charts'>
-      <div className='chart div'>
+      <div className='chart-div'>
         <h2>Charts</h2>
 
-        <div >
+        <div  className='chart-container'>
           <Bar
             data={
               {
                 labels: chartData.map((data) => data.label),
                 datasets: [
                   {
-                    label: 'sales',
+                    label: '',
                     data: chartData.map((data) => data.value),
-                    borderWidth: 1
+                    borderWidth: 2,
+                    backgroundColor: '#34cAA540',
+                    
+                    borderRadius: {
+                      topLeft: 80,
+                      topRight: 80,
+                      bottomLeft: 0,
+                      bottomRight: 0,
+                    }
                   }
                 ]
               }

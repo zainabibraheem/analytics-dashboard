@@ -7,10 +7,10 @@
   display: grid;
   gap: 20px;
   height: 998px;
-  padding: 20px;
+  padding: 30px;
   
-  grid-template-columns: 65% 35%;
-  grid-template-rows: 45% 55%;
+  grid-template-columns: 63% 37%;
+  grid-template-rows: auto auto;
   
  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -29,8 +29,6 @@
 
 
 .charts {
-  
-  border: 1px solid red;
  /* grid-area: Charts; */
  grid-column: 1/2;
  grid-row: 1/1;
